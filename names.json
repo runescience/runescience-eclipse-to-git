@@ -1,0 +1,52 @@
+#https://codebeautify.org/json-to-java-converter
+
+{
+   "employee":
+    {
+	"firstName": "john",
+	"lastName": "doe"
+    }
+
+}
+
+public class Codebeautify {
+ Employee EmployeeObject;
+
+
+ // Getter Methods 
+
+ public Employee getEmployee() {
+  return EmployeeObject;
+ }
+
+ // Setter Methods 
+
+ public void setEmployee(Employee employeeObject) {
+  this.EmployeeObject = employeeObject;
+ }
+}
+public class Employee {
+ private String firstName;
+ private String lastName;
+
+
+ // Getter Methods 
+
+ public String getFirstName() {
+  return firstName;
+ }
+
+ public String getLastName() {
+  return lastName;
+ }
+
+ // Setter Methods 
+
+ public void setFirstName(String firstName) {
+  this.firstName = firstName;
+ }
+
+ public void setLastName(String lastName) {
+  this.lastName = lastName;
+ }
+}
